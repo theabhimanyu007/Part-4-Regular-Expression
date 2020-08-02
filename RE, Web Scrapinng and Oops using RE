@@ -1,0 +1,42 @@
+The Python module re provides full support for Perl-like regular expressions in Python. The re module raises the exception re.error if an error occurs while compiling or using a regular expression.
+We would cover two important functions, which would be used to handle regular expressions. But a small thing first: There are various characters, which would have special meaning when they are used in regular expression. To avoid any confusion while dealing with regular expressions, we would use Raw Strings as r'expression'.
+#Regular Expressions :- using re package
+#---------------------- In this usually we will work upon Unstructured Data.
+#Used for Pattern Matching.
+  #check Phone number validity.
+      #Email address validity.
+#to enable the re package by typing  'import re'. ( re has also some functions which is assoicate with in it.)
+#by default this package is available in the every version of python.
+In this file;-
+Discuss - along with their examples.
+Cases 1
+#[abc] -> either a or b or c
+#[^abc] - > apart from abc should come. means not abc would come.
+#[a-z]  - > Any lower case alphabets.
+#[^a-z]  - > except Any lower case alphabets.
+#[A-Z]  - > Any upper case alphabets.
+#[0-9]  - > Any digit
+#[a-zA-Z0-9] - > All the alphabet upper and lowe + any digit.
+#[^a-zA-Z0-9] - > except this. All other characters.
+Case- 2
+#Predefined Character as well. along with their examples.
+# \s - search for space character.
+# \S - except space character.
+# \d - search for any digit.
+# \D - except digit.
+# \w - any word character (Alpha Numeric Character) [a-zA-z0-9].
+# \W - any word character except alphanumeric charc. i.e. Special Charac..
+#  . - every character.
+Cases -3
+#match() - To check the given pattern at the beginning of the target string.
+            #if available then return match object else none.
+
+#full match() -
+#Search()
+#findall()
+#finditer()
+#sub()
+#subn()
+#split()
+#compile()
+Web Scrapping using Regular Expression
